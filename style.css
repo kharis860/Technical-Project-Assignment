@@ -1,0 +1,138 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #ffd2ff;
+}
+nav {
+  display: grid;
+  height: 70px;
+  align-items: center;
+}
+.navItem {
+  display: grid;
+  align-items: center;
+  list-style-type: none;
+  grid-template-columns: auto auto auto auto auto auto auto auto auto auto auto auto;
+}
+.navItem li {
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  padding: 2px;
+}
+.navItem li a {
+  display: grid;
+  text-align: center;
+  align-items: center;
+
+  padding: 2px;
+}
+.link {
+  display: inline-block;
+  text-decoration: none;
+  font-family: arial, helvetica;
+  width: 55px;
+  height: 50px;
+  color: black;
+  font-size: 14px;
+}
+.link:hover {
+  border-bottom: 2px solid black;
+  transition-timing-function: linear;
+  transition: width 90ms;
+  opacity: 1;
+}
+.banner {
+  font-family: "catamaran", sans-serif;
+  padding-left: 145px;
+  padding-top: 50px;
+}
+.banner h2 {
+  font-size: 60px;
+  font-weight: lighter;
+  font-style: oblique;
+  letter-spacing: 1px;
+}
+.funFact {
+  padding-top: 20px;
+  font-size: 17px;
+  font-weight: bold;
+  opacity: 0.7;
+}
+.socialMedia {
+  width: 250px;
+  display: flex;
+  padding-top: 30px;
+  justify-content: space-evenly;
+}
+.fa-github {
+  display: flex !important;
+  padding: 8px 10px;
+  font-size: 35px !important;
+  width: 50px !important;
+  height: 50px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+  background: #333;
+  color: white;
+}
+.fa-github:hover {
+  opacity: 70%;
+  transition-timing-function: ease-in-out;
+  transition: 0.3s;
+}
+.fa-facebook {
+  display: flex !important;
+  padding: 10px 10px 10px 15px;
+  font-size: 32px !important;
+  width: 50px !important;
+  height: 50px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+  background: #4267b2;
+  color: white;
+}
+.fa-facebook:hover {
+  opacity: 70%;
+  transition-timing-function: ease-in-out;
+  transition: 0.3s;
+}
+.fa-instagram {
+  display: flex !important;
+  padding: 8px 10px 10px 10px;
+  font-size: 35px !important;
+  width: 50px !important;
+  height: 50px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+  background: #125688;
+  color: white;
+}
+.fa-instagram:hover {
+  opacity: 70%;
+  transition-timing-function: ease-in-out;
+  transition: 0.3s;
+}
+.fa-youtube {
+  display: flex !important;
+  padding: 9px 10px 10px 13px;
+  font-size: 30px !important;
+  width: 50px !important;
+  height: 50px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+  background: #ff0000;
+  color: white;
+}
+.fa-youtube:hover {
+  opacity: 70%;
+  transition-timing-function: ease-in-out;
+  transition: 0.3s;
+}
